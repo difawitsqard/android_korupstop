@@ -1,0 +1,123 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text_education"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Edukasi Korupsi"
+            android:textColor="@color/soft_dark"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/text_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_education"
+            android:layout_marginVertical="4dp"
+            android:layout_marginTop="-50dp"
+            android:fontFamily="@font/poppins"
+            android:text="Tambahkan materi edukasi tentang korupsi untuk meningkatkan kesadaran masyarakat."
+            android:textColor="@color/dark_gray"
+            android:textSize="12sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/EditTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_description"
+            app:hintEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edit_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:hint="Judul"
+                android:inputType="text"
+                android:textColor="@color/soft_dark"
+                android:textSize="14sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/EditDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/EditTitle"
+            android:layout_marginTop="16dp"
+            app:hintEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edit_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:gravity="top|start"
+                android:hint="Deskripsi"
+                android:inputType="textMultiLine"
+                android:minLines="4"
+                android:textColor="@color/soft_dark"
+                android:textSize="14sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ImageView
+            android:id="@+id/image_preview"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@id/EditDescription"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:contentDescription="Image Preview"
+            android:scaleType="centerCrop"
+            android:src="@drawable/sample_image"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/button_upload_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image_preview"
+            android:layout_alignParentStart="true"
+            android:backgroundTint="@color/primary"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/poppins"
+            android:text="Upload Gambar"
+            android:textColor="@color/light_gray"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/button_submit_education"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button_upload_image"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/poppins"
+            android:backgroundTint="@color/primary"
+            android:padding="12dp"
+            android:text="Submit"
+            android:textColor="@color/light_gray"
+            android:textSize="14sp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone"
+            android:indeterminate="true" />
+
+    </RelativeLayout>
+</ScrollView>

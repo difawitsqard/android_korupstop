@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "501212481067",
+    "project_id": "korupstop-45002",
+    "storage_bucket": "korupstop-45002.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501212481067:android:58739c76f29c8e51188c6e",
+        "android_client_info": {
+          "package_name": "com.difawitsqard.korupstop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501212481067-jaojsqo0s18sdc26iusq46vi1ad1o59b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.difawitsqard.korupstop",
+            "certificate_hash": "fb7b6d3f611e4e8c86c0dad40920dcae5a3a2593"
+          }
+        },
+        {
+          "client_id": "501212481067-hmk0sbc2nus3fcism40vrcdk3p89ko7f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDY3aLgndYAa63kfNlIM6nEZTs4zGg9e8o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "501212481067-hmk0sbc2nus3fcism40vrcdk3p89ko7f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501212481067:android:ee1b6d7a564b7b49188c6e",
+        "android_client_info": {
+          "package_name": "com.example.korupshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501212481067-hmk0sbc2nus3fcism40vrcdk3p89ko7f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDY3aLgndYAa63kfNlIM6nEZTs4zGg9e8o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "501212481067-hmk0sbc2nus3fcism40vrcdk3p89ko7f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

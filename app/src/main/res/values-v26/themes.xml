@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomBottomNavBar" parent="Widget.Design.BottomNavigationView">
+        <item name="itemIconTint">@color/dark_gray</item>
+        <item name="itemTextColor">@color/soft_dark</item>
+        <item name="backgroundTint">@color/light_gray</item>
+        <item name="android:paddingVertical">12dp</item>
+    </style>
+</resources>

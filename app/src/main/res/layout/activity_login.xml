@@ -1,0 +1,82 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:textAlignment="center"
+                    android:text="Selamat Datang"
+                    android:textColor="@color/white"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="2dp"
+                    android:fontFamily="@font/poppins"
+                    android:textAlignment="center"
+                    android:text="Silakan masuk untuk melanjutkan menjelajahi aplikasi"
+                    android:textColor="@color/light_gray"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginBottom="55dp"
+                    android:src="@drawable/korupstop_logo1" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/buttonLoginWithGoogle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/light_gray"
+                    android:fontFamily="@font/poppins"
+                    android:padding="14dp"
+                    android:text="Masuk Dengan Google"
+                    android:textColor="@color/primary"
+                    app:icon="@drawable/google"
+                    app:iconTint="@null"
+                    app:iconGravity="textStart"
+                    app:iconPadding="8dp"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:layout_margin="8dp"
+                />
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+</FrameLayout>

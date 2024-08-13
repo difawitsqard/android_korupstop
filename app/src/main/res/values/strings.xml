@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">KorupStop</string>
+    <string name="category_prompt">Jenis Korupsi</string>
+    <string-array name="categories_array">
+        <item>Penyuapan</item>
+        <item>Penyalahgunaan Dana</item>
+        <item>Penipuan</item>
+        <item>Lainnya</item>
+    </string-array>
+    <string name="default_web_client_id">501212481067-hmk0sbc2nus3fcism40vrcdk3p89ko7f.apps.googleusercontent.com</string>
+
+</resources>

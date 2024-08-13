@@ -1,0 +1,3 @@
+file: korupstop-key.jks
+alias: korup-stop-key
+password: K0rupSt0p

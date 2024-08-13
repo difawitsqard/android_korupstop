@@ -1,0 +1,21 @@
+<!-- res/values/styles.xml -->
+<resources>
+    <!-- Base application theme -->
+    <style name="Base.Theme.Korupstop" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorAccent">@color/primary</item>
+        <item name="colorControlActivated">@color/primary</item>
+        <item name="android:focusedSearchResultHighlightColor">@color/primary</item>
+        <item name="android:focusedSearchResultHighlightColor">@color/primary</item>
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+
+    <style name="Theme.Korupstop" parent="Base.Theme.Korupstop" />
+
+    <style name="CircularImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+</resources>
